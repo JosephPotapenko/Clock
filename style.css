@@ -167,6 +167,7 @@ main {
     .overlay {
         width: 400px;
         height: 250px;
+        background: none;
     }
     body::before {
         content: '';
@@ -174,7 +175,7 @@ main {
         top: -5%;
         left: -2%;
         width: 450px;
-        height: 750px;
+        height: 850px;
         background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.568) 100%);
         pointer-events: none;
     }
@@ -203,6 +204,7 @@ main {
     .overlay {
         width: 750px;
         height: 400px;
+        background: none;
     }
     body::before {
         content: '';
@@ -226,5 +228,4 @@ main {
         background: url('your-background-image.jpg') no-repeat center center fixed;
         background-size: 80%;
     }
-}
 }
