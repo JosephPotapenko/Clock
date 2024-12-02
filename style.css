@@ -165,8 +165,8 @@ main {
         font-size: 1rem;
     }
     .overlay {
-        width: 350px;
-        height: 200px;
+        width: 400px;
+        height: 250px;
     }
     body::before {
         content: '';
@@ -198,8 +198,8 @@ main {
         font-size: 0.8rem;
     }
     .overlay {
-        width: 700px;
-        height: 350px;
+        width: 750px;
+        height: 400px;
     }
     body::before {
         content: '';
@@ -212,7 +212,7 @@ main {
         pointer-events: none;
     }
     body {
-        background-size: cover;
+        background-size: 80%;
         background-position: center;
         width: 850px;
         height: 450px;
@@ -221,6 +221,7 @@ main {
         align-items: center;
         position: relative;
         background: url('your-background-image.jpg') no-repeat center center fixed;
-        background-size: cover;
+        background-size: 80%;
     }
+}
 }
