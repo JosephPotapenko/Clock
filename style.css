@@ -175,12 +175,9 @@ main {
         top: -5%;
         left: -2%;
         width: 450px;
-        height: 850px;
+        height: 900px;
         background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.568) 100%);
         pointer-events: none;
-    }
-    body {
-        overflow: hidden;
     }
 }
 
@@ -225,7 +222,6 @@ main {
         justify-content: center;
         align-items: center;
         position: relative;
-        background: url('your-background-image.jpg') no-repeat center center fixed;
         background-size: 80%;
     }
 }
