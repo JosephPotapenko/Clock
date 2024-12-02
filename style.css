@@ -173,7 +173,7 @@ main {
         position: absolute;
         top: -5%;
         left: -2%;
-        width: 400px;
+        width: 450px;
         height: 750px;
         background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.568) 100%);
         pointer-events: none;
