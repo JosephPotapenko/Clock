@@ -150,13 +150,13 @@ main {
 /* Portrait orientation */
 @media only screen and (max-width: 600px) and (orientation: portrait) {
     .time {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .seconds {
         font-size: 3rem;
     }
     .amOrPM {
-        font-size: 3.5rem;
+        font-size: 3.25rem;
     }
     .date-container {
         font-size: 1.5rem;
@@ -173,8 +173,8 @@ main {
         position: absolute;
         top: -5%;
         left: -2%;
-        width: 450px;
-        height: 800px;
+        width: 400px;
+        height: 750px;
         background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.568) 100%);
         pointer-events: none;
     }
@@ -183,13 +183,13 @@ main {
 /* Landscape orientation */
 @media only screen and (max-width: 600px) and (orientation: landscape) {
     .time {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     .seconds {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
     .amOrPM {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
     .date-container {
         font-size: 1.2rem;
