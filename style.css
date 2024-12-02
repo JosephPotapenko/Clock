@@ -172,9 +172,9 @@ main {
         content: '';
         position: absolute;
         top: -5%;
-        left: -1%;
-        width: 500px;
-        height: 900px;
+        left: -2%;
+        width: 400px;
+        height: 800px;
         background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.568) 100%);
         pointer-events: none;
     }
