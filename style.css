@@ -165,8 +165,18 @@ main {
         font-size: 1rem;
     }
     .overlay {
-        width: 80%;
+        width: 90%;
         height: 80%;
+    }
+    body::before {
+        content: '';
+        position: absolute;
+        top: -5%;
+        left: -1%;
+        width: 500px;
+        height: 900px;
+        background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.568) 100%);
+        pointer-events: none;
     }
 }
 
@@ -190,5 +200,15 @@ main {
     .overlay {
         width: 80%;
         height: 80%;
+    }
+    body::before {
+        content: '';
+        position: absolute;
+        top: -5%;
+        left: -1%;
+        width: 900px;
+        height: 500px;
+        background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.568) 100%);
+        pointer-events: none;
     }
 }
