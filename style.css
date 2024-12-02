@@ -166,7 +166,7 @@ main {
     }
     .overlay {
         width: 350px;
-        height: 700px;
+        height: 200px;
     }
     body::before {
         content: '';
