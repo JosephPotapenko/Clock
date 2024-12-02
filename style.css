@@ -181,7 +181,7 @@ main {
         left: -2%;
         width: 450px;
         height: 900px;
-        background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.568) 100%);
+        background: radial-gradient(circle, rgba(0, 0, 0, .088) 40%, rgba(0, 0, 0, 0.568) 100%);
         pointer-events: none;
     }
 }
@@ -209,7 +209,7 @@ main {
         text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
     }
     .overlay {
-        width: 900px;
+        width: 1100px;
         height: 400px;
         background: none;
     }
@@ -220,7 +220,7 @@ main {
         left: -1%;
         width: 800px;
         height: 400px;
-        background: radial-gradient(circle, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.568) 100%);
+        background: radial-gradient(circle, rgba(0, 0, 0, 0.088) 40%, rgba(0, 0, 0, 0.568) 100%);
         pointer-events: none;
     }
 }
